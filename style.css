@@ -35,19 +35,24 @@ nav ul{
 
 
 
-button{
-    background-color: black;
-    color: whitesmoke;
+ .header_btn{
+  background-color: black;
     border-radius: 7px;
     font-size: 15px;
-    padding: 18px 35px;
-    justify-content: center; 
+    color: antiquewhite;
+    padding: 10px 25px;
+
+   
+    
 }
 .banner-contains{
-    margin-left: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .banner-description{
-
+text-align: center;
  
     
 }
@@ -55,9 +60,7 @@ button{
 main{
     justify-items: center;
 }
-.btn{
 
-}
 .backgroundsecondary {
     background-color:floralwhite ;
 
@@ -71,10 +74,16 @@ main{
    border-radius: 20px
    ;
 }
-.Layer_1{
+.layer_1{
     display:flex;
+    align-items: center;
     
 
+}
+.layer_2{
+    display:flex;
+    align-items: center;
+    flex-direction:row-reverse;
 }
 .second{
     text-align: center;
@@ -89,12 +98,15 @@ main{
 }
 .vedio{
     text-align: center;
+    
 }
 
 .skills-container{
     display: flex;
     border-radius: 7px;
-    justify-content: space-between;
+    justify-content: space-around;
+
+
     
 }
 .skill{
@@ -102,12 +114,14 @@ main{
     padding: 20px;
     border-radius: 10px;
     padding: 10px;
+    width: full;
 }
 .skillss{
     background-color: blueviolet;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    width: 300px;
     
 }
 .skills{
@@ -116,6 +130,9 @@ main{
     padding: 10px;
     border-radius: 10px
     ;
+    width: 300px;
+    
+    
 
 
 }
@@ -166,7 +183,24 @@ section div{
     display: flex;
     position: top right;
 }
-.image{
-    
+.footer-input{
+
+    text-align: center;
+}
+.input{
+    width:300px;
+    padding: 7px;
+
+}
+.footerh{
+    text-align: center;
+    color: aliceblue;
+}
+.footerb{
+    padding: 7px;
+}
+.fconteiner{
+    display: flex;
+    justify-content: space-between;
 }
 
