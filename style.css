@@ -41,19 +41,14 @@ button{
     border-radius: 7px;
     font-size: 15px;
     padding: 18px 35px;
-    justify-content: center;
-    
-    
-    
+    justify-content: center; 
 }
 .banner-contains{
-    justify-content:center;
-
-    
+    margin-left: 550px;
 }
 .banner-description{
 
-    text-align: center;
+ 
     
 }
 
@@ -81,18 +76,15 @@ main{
     
 
 }
-.Layer_2{
-
-}
-
 .second{
     text-align: center;
+   
 }
 .color{
     background-color: aliceblue;
     border-radius: 20px;
     padding: 20px;
-    margin: 20pxpx;
+    margin: 20px;
     
 }
 .vedio{
@@ -159,6 +151,22 @@ footer{
         padding: 50px;
         margin: 50px;
 }
-.text{
-   
+.colo{ 
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
 }
+    
+section div{
+    margin: 20px;
+}
+.d{
+    display: flex;
+    position: top right;
+}
+.image{
+    
+}
+
