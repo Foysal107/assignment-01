@@ -130,3 +130,35 @@ main{
 .m{
     text-align: center;
 }
+.skil{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.skill-title{
+    margin-left: 15px;
+    padding-left: 15px;
+    
+}
+.skill-description{
+    padding-left: 15px;
+    margin: 15px;
+}
+.learn{
+
+    color: black;
+   margin-left: 20px;
+}
+footer{
+    background-image:url(
+        assets/handshake.jpg );
+      height: 140px;
+        border-radius: 20px;
+        padding: 50px;
+        margin: 50px;
+}
+.text{
+   
+}
